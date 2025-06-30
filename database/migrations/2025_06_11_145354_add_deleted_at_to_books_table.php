@@ -8,7 +8,7 @@ return new class extends Migration {
     public function up(): void
     {
         Schema::table('books', function (Blueprint $table) {
-            $table->softDeletes(); // akan membuat kolom deleted_at nullable timestamp
+             // akan membuat kolom deleted_at nullable timestamp
         });
     }
 
